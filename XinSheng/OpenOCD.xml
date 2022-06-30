@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenOCD>
+  <Name>XinShengTech OpenOCD</Name>
+  <ID>openocd-XinShengTech</ID>
+  <Vendor>XinShengTech（芯昇科技）</Vendor>
+  <URL>https://www.nucleisys.com/download.php</URL>
+  <Description>支持芯昇科技开发板的调试器上位机工具</Description>
+  <Version Value="V0.11.0">
+    <ResourceType>git</ResourceType>
+    <ResourceURL>https://github.com/zchen409/XinShengTech_openocd.git</ResourceURL>
+    <ResourceValidation>36893971a119f251dfda5988b5553aa0f4257705</ResourceValidation>
+    <OmitTopFolder></OmitTopFolder>
+    <EnvPath>bin</EnvPath>
+    <Tool Name="ConsoleCmd" Value="cmlink_gdbserver.exe"/>
+    <!--
+    启动工具的gdb port参数
+    -->
+    <Tool Name="GDB_PORT_ARG" Value="-l :"/>
+  </Version>
+</OpenOCD>
