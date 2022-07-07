@@ -73,4 +73,14 @@
     <Tool Name="ConsoleCmd" Value="DebugServerConsole.exe"/>
     <Tool Name="Verbose" Value="DebugServerConsole.exe -v -skip-enter"/>
   </Version>
+  <Version Value="V5.16.0">
+    <ResourceType>git</ResourceType>
+    <ResourceURL>https://github.com/UDTeD/T-HeadDebugServer.git</ResourceURL>
+    <ResourceValidation>b9492577313ca227bd3b52c3b9f08e77805fdb0e</ResourceValidation>
+    <EnvPath>bin</EnvPath>
+    <Tool Name="UICmd" Value="T-HeadDebugServer.exe"/>
+    <Tool Name="ConsoleCmd" Value="DebugServerConsole.exe"/>
+    <Tool Name="Verbose" Value="DebugServerConsole.exe -v -skip-enter"/>
+	<Tool Name="SupportAsyncDebug" Value="yes"/>
+  </Version>
 </DebuggerServer>
