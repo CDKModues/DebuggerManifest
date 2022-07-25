@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenOCD>
+  <Name>Nuclei OpenOCD</Name>
+  <ID>openocd-nuclei</ID>
+  <Vendor>Nuclei（芯来科技）</Vendor>
+  <URL>https://www.nucleisys.com/download.php</URL>
+  <Description>支持芯来科技开发板的调试器上位机工具</Description>
+  <Version Value="V0.11.0">
+    <ResourceType>zip</ResourceType>
+    <ResourceURL>https://www.nucleisys.com/upload/files/toochain/openocd/nuclei-openocd-2022.04-win32-x32.zip</ResourceURL>
+    <ResourceValidation>1ee394d09c0cfedc8b179c34195dc756</ResourceValidation>
+    <OmitTopFolder>Nuclei/OpenOCD/2022.04</OmitTopFolder>
+    <EnvPath>bin</EnvPath>
+    <Tool Name="ConsoleCmd" Value="openocd.exe"/>
+    <Tool Name="Verbose" Value="openocd.exe -v"/>
+  </Version>
+</OpenOCD>
