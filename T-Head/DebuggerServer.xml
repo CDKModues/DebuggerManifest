@@ -133,4 +133,14 @@
     <Tool Name="Verbose" Value="DebugServerConsole.exe -v -skip-enter"/>
     <Tool Name="SupportAsyncDebug" Value="yes"/>
   </Version>
+  <Version Value="V5.16.11">
+    <ResourceType>git</ResourceType>
+    <ResourceURL>https://gitee.com/cdkmodules/T-HeadDebugServer.git</ResourceURL>
+    <ResourceValidation>29ebab91389323e26662bd63614aa308f4f9269f</ResourceValidation>
+    <EnvPath>bin</EnvPath>
+    <Tool Name="UICmd" Value="T-HeadDebugServer.exe"/>
+    <Tool Name="ConsoleCmd" Value="DebugServerConsole.exe"/>
+    <Tool Name="Verbose" Value="DebugServerConsole.exe -v -skip-enter"/>
+    <Tool Name="SupportAsyncDebug" Value="yes"/>
+  </Version>
 </DebuggerServer>
