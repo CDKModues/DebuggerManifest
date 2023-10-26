@@ -31,7 +31,7 @@
     <!--
     ResourceURL是获取该资源的地址，外网可访问
     -->
-    <ResourceURL>http://www.fdmtek.com/cdk/Debugger/openocd.zip</ResourceURL>
+    <ResourceURL>http://www.fdmtek.com/cdk/231026/Debugger/openocd.zip</ResourceURL>
     <!--
     ResourceValidation用于验证ResourceURL的安全性和有效性；
     如果是tar.gz / zip 类型，这里需要提供MD5值；
@@ -39,7 +39,7 @@
       certutil -hashfile D:\your\file\fullpath\filename.tar.gz MD5
     如果是git仓库，这里需要提供commit的hash值
     -->
-    <ResourceValidation>58836b23bce08bbd87dcd88616ce3746</ResourceValidation>
+    <ResourceValidation>f0f60f8f437cb8ce8833b97b8e70344f</ResourceValidation>
     <!--
     1 EnvPath用来设置环境变量，在CDK内部使用该工具时，会首先设置该环境变量
     2 这里相对路径是资源包下载完成以后的父目录：
